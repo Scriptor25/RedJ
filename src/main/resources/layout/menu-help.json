@@ -1,0 +1,11 @@
+{
+  "type": "menu",
+  "id": "help",
+  "label": "Help",
+  "items": [
+    {
+      "label": "About",
+      "action": "help.about"
+    }
+  ]
+}

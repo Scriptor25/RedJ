@@ -1,0 +1,37 @@
+{
+  "type": "menu",
+  "id": "file",
+  "label": "File",
+  "items": [
+    {
+      "label": "New...",
+      "shortcut": "ctrl+alt+n",
+      "action": "file.new"
+    },
+    {
+      "label": "Save",
+      "shortcut": "ctrl+s",
+      "action": "file.save"
+    },
+    {
+      "label": "Open...",
+      "shortcut": "ctrl+alt+o",
+      "action": "file.open"
+    },
+    {
+      "label": "Close Project",
+      "shortcut": "ctrl+alt+x",
+      "action": "file.close"
+    },
+    {
+      "label": "Save As...",
+      "shortcut": "ctrl+alt+s",
+      "action": "file.save_as"
+    },
+    {
+      "label": "Exit",
+      "shortcut": "alt+f4|esc",
+      "action": "file.exit"
+    }
+  ]
+}

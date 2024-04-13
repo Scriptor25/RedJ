@@ -1,0 +1,13 @@
+{
+  "type": "menu_bar",
+  "id": "main",
+  "isMain": true,
+  "menus": [
+    "file",
+    "edit",
+    "view",
+    "build",
+    "run",
+    "help"
+  ]
+}
