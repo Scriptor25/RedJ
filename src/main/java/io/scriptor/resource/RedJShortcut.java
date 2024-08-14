@@ -1,8 +1,8 @@
-package io.scriptor.ui;
+package io.scriptor.resource;
 
 import static org.lwjgl.glfw.GLFW.GLFW_KEY_ESCAPE;
 
-public record Shortcut(boolean ctrl, boolean shift, boolean alt, int key) {
+public record RedJShortcut(boolean ctrl, boolean shift, boolean alt, int key) {
 
     public boolean matches(boolean ctrl, boolean shift, boolean alt, int key) {
         return this.ctrl == ctrl && this.shift == shift && this.alt == alt && this.key == key;
@@ -16,10 +16,10 @@ public record Shortcut(boolean ctrl, boolean shift, boolean alt, int key) {
         };
     }
 
-    public static Shortcut[] parseShortcut(String rep) {
-        if (rep == null) return new Shortcut[0];
+    public static RedJShortcut[] parseShortcut(String rep) {
+        if (rep == null) return new RedJShortcut[0];
         final var reps = rep.split("\\|+");
-        final var shortcuts = new Shortcut[reps.length];
+        final var shortcuts = new RedJShortcut[reps.length];
         for (int i = 0; i < reps.length; i++) {
             final var opts = reps[i].split("\\++");
             boolean ctrl = false, shift = false, alt = false;
@@ -39,7 +39,7 @@ public record Shortcut(boolean ctrl, boolean shift, boolean alt, int key) {
                         key = toKey(opt);
                         break;
                 }
-            shortcuts[i] = new Shortcut(ctrl, shift, alt, key);
+            shortcuts[i] = new RedJShortcut(ctrl, shift, alt, key);
         }
         return shortcuts;
     }

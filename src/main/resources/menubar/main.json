@@ -1,5 +1,5 @@
 {
-  "type": "menu_bar",
+  "type": "menubar",
   "id": "main",
   "isMain": true,
   "menus": [

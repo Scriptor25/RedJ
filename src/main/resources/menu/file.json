@@ -14,7 +14,17 @@
       "action": "file.save"
     },
     {
-      "label": "Open...",
+      "label": "Save All",
+      "shortcut": "ctrl+shift+s",
+      "action": "file.save_all"
+    },
+    {
+      "label": "Save As...",
+      "shortcut": "ctrl+alt+s",
+      "action": "file.save_as"
+    },
+    {
+      "label": "Open Project",
       "shortcut": "ctrl+alt+o",
       "action": "file.open"
     },
@@ -22,11 +32,6 @@
       "label": "Close Project",
       "shortcut": "ctrl+alt+x",
       "action": "file.close"
-    },
-    {
-      "label": "Save As...",
-      "shortcut": "ctrl+alt+s",
-      "action": "file.save_as"
     },
     {
       "label": "Exit",
