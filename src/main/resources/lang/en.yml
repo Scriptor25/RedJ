@@ -1,0 +1,23 @@
+type: lang
+lang:
+  en: English
+menu:
+  file: File
+  file.new: New
+  file.recent: Recent Projects
+  edit: Edit
+  edit.find: Find
+  view: View
+item:
+  file.open: Open Project
+  file.close: Close Project
+  file.settings: Settings
+  file.save-all: Save All
+  file.exit: Exit
+  edit.undo: Undo
+  edit.redo: Redo
+  edit.cut: Cut
+  edit.copy: Copy
+  edit.paste: Paste
+  edit.delete: Delete
+  edit.select-all: Select All

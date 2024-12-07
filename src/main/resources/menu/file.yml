@@ -1,0 +1,18 @@
+type: menu
+items:
+  - type: menu
+    id: file.new
+  - type: item
+    id: file.open
+  - type: menu
+    id: file.recent
+  - type: item
+    id: file.close
+  - type: separator
+  - type: item
+    id: file.settings
+  - type: item
+    id: file.save-all
+  - type: separator
+  - type: item
+    id: file.exit

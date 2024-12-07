@@ -1,0 +1,5 @@
+resources:
+  - lang/en.yml
+  - menu/edit.yml
+  - menu/file.yml
+  - menu/view.yml

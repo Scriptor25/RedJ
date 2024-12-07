@@ -1,0 +1,20 @@
+type: menu
+items:
+  - type: item
+    id: edit.undo
+  - type: item
+    id: edit.redo
+  - type: separator
+  - type: item
+    id: edit.cut
+  - type: item
+    id: edit.copy
+  - type: item
+    id: edit.paste
+  - type: item
+    id: edit.delete
+  - type: separator
+  - type: menu
+    id: edit.find
+  - type: item
+    id: edit.select-all
