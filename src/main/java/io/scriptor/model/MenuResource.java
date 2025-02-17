@@ -12,8 +12,9 @@ public class MenuResource extends Resource {
         if (itemsNode.isEmpty()) return null;
         final List<Resource> items = new ArrayList<>();
         for (final var itemNode : itemsNode.get()) {
+            items.add(Resource.read( itemNode));
         }
-        return new MenuResource()
+        return new MenuResource(id, items.toArray(Resource[]::new));
     }
 
     public final Resource[] items;

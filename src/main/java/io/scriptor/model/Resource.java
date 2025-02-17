@@ -22,7 +22,6 @@ public abstract class Resource {
                 case ITEM -> ItemResource.read(id, yaml);
                 case LANG -> LangResource.read(id, yaml);
             }).orElse(null);
-
         }
     }
 
